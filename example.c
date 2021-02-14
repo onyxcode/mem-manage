@@ -17,7 +17,6 @@ int main() {
     printf("'%s' is %d characters long. ", nam, len);
 
     /// Heap memory
-
     char *name = malloc(len * sizeof(char));
     strcpy(name, nam);
     printf("%s is your first name.\n", name);
